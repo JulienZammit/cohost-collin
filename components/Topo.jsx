@@ -1,4 +1,4 @@
-// Decorative topographic contour lines — the signature mountain-contour motif.
+// Decorative topographic contour lines — the signature "Washington Cascades" motif.
 // Pure SVG, no client JS. Reused across sections for depth & atmosphere.
 
 export default function Topo({ className = '', stroke = '#0E5A6B', opacity = 0.12 }) {

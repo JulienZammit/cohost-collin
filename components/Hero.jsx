@@ -35,7 +35,7 @@ export default function Hero() {
       <motion.div style={{ y: yBg, scale: scaleBg }} className="absolute inset-0">
         <Image
           src="/assets/img/hero-lake.jpg"
-          alt="Golden-hour lake and evergreen forest"
+          alt="Golden-hour lake and evergreen forest in Washington State"
           fill
           priority
           sizes="100vw"
@@ -61,7 +61,7 @@ export default function Hero() {
               className="eyebrow mb-6 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-cream backdrop-blur"
             >
               <span className="h-1.5 w-1.5 rounded-full bg-coral" />
-              Nationwide · Short-Term Rental Co-Hosting
+              Washington State & Nationwide · STR Co-Hosting
             </motion.div>
 
             <h1 className="display-serif text-balance text-[2.6rem] font-light leading-[1.02] text-cream sm:text-6xl sm:leading-[0.98] lg:text-[4.6rem]">

@@ -9,7 +9,7 @@ import { BLOG_POSTS } from '@/lib/site';
 export const metadata = {
   title: 'The Blog — STR Hosting Insights',
   description:
-    'Practical short-term rental insights from Cohost Collin: revenue strategy, dynamic pricing, ROI-first design, and hands-off management for owners across the US.',
+    'Practical short-term rental insights from Cohost Collin: revenue strategy, dynamic pricing, ROI-first design, and hands-off management in Washington State and across the US.',
   alternates: { canonical: 'https://cohostcollin.com/blog' },
 };
 
