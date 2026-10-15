@@ -1,0 +1,7 @@
+p1 | id=1108078545436891424 | 1200x800 | Home in Gig Harbor · ★4.95 · 3 bedrooms · 4 beds · 2.5 private baths
+p2 | id=1219601239582945290 | 1200x800 | Home in Seattle · ★4.96 · 4 bedrooms · 6 beds · 2 private baths
+p3 | id=1426949566722280797 | 1200x800 | Cabin in Hoodsport · ★4.88 · 3 bedrooms · 4 beds · 1.5 private baths
+p4 | id=1262434052654985589 | 1200x801 | Home in Hastings · ★5.0 · 5 bedrooms · 8 beds · 3.5 private baths
+p5 | id=1150839724338122598 | 1200x800 | Cabin in Sammamish · ★4.93 · 3 bedrooms · 4 beds · 1.5 private baths
+p6 | id=1108042818676353713 | 1200x800 | Cabin in Hoodsport · ★4.94 · 1 bedroom · 3 beds · 1 private bath
+p7 | id=1262412168110836634 | 1200x800 | Cabin in Hoodsport · ★4.86 · 2 bedrooms · 5 beds · 2 private baths
