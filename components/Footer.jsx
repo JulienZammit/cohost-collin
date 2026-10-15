@@ -19,7 +19,7 @@ export default function Footer() {
               className="h-11 w-auto brightness-0 invert"
             />
             <p className="mt-5 max-w-sm text-[0.95rem] leading-relaxed text-cream/60">
-              Full-service short-term rental co-hosting in Washington State. Earn more,
+              Full-service short-term rental co-hosting across the US. Earn more,
               worry less — your property, expertly hosted.
             </p>
             <div className="mt-6 flex items-center gap-3">

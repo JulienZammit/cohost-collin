@@ -22,15 +22,15 @@ const siteUrl = 'https://cohostcollin.com';
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Cohost Collin — Full-Service STR Co-Hosting in Washington State',
+    default: 'Cohost Collin — Full-Service STR Co-Hosting Across the US',
     template: '%s · Cohost Collin',
   },
   description:
-    'Earn more and worry less. Cohost Collin is a full-service short-term rental co-hosting partner in Washington State — Airbnb & OTA management, dynamic pricing, interior design, and 5-star guest care for a hands-off, passive income property.',
+    'Earn more and worry less. Cohost Collin is a full-service short-term rental co-hosting partner for property owners across the US — Airbnb & OTA management, dynamic pricing, interior design, and 5-star guest care for a hands-off, passive income property.',
   keywords: [
-    'STR co-hosting Washington',
-    'Airbnb management Washington State',
-    'short-term rental management Seattle',
+    'STR co-hosting',
+    'Airbnb management USA',
+    'short-term rental management',
     'vacation rental co-host',
     'Airbnb Superhost management',
     'dynamic pricing STR',
@@ -43,21 +43,21 @@ export const metadata = {
     locale: 'en_US',
     url: siteUrl,
     siteName: 'Cohost Collin',
-    title: 'Cohost Collin — Full-Service STR Co-Hosting in Washington State',
+    title: 'Cohost Collin — Full-Service STR Co-Hosting Across the US',
     description:
-      'Turn your property into a hands-off, 5-star passive income stream. Full-service Airbnb & short-term rental co-hosting across Washington State.',
+      'Turn your property into a hands-off, 5-star passive income stream. Full-service Airbnb & short-term rental co-hosting across the US.',
     images: [
       {
         url: '/assets/img/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Washington State lake and evergreen forest at golden hour',
+        alt: 'Lake and evergreen forest at golden hour',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cohost Collin — Full-Service STR Co-Hosting in Washington State',
+    title: 'Cohost Collin — Full-Service STR Co-Hosting Across the US',
     description:
       'Earn more & worry less with your short-term rental. Full-service co-hosting, dynamic pricing, and 5-star guest care.',
     images: ['/assets/img/og-image.jpg'],
@@ -78,11 +78,11 @@ const jsonLd = {
   '@type': 'ProfessionalService',
   name: 'Cohost Collin',
   description:
-    'Full-service short-term rental co-hosting and Airbnb management in Washington State.',
+    'Full-service short-term rental co-hosting and Airbnb management across the United States.',
   url: siteUrl,
   image: `${siteUrl}/assets/img/hero-lake.jpg`,
   founder: { '@type': 'Person', name: 'Collin Hinshaw' },
-  areaServed: { '@type': 'State', name: 'Washington' },
+  areaServed: { '@type': 'Country', name: 'United States' },
   priceRange: '$$',
   sameAs: [
     'https://www.instagram.com/cohostcollin/',

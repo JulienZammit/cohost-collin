@@ -19,7 +19,7 @@ export default function Manage() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-lift ring-1 ring-white/10">
             <Image
               src="/assets/img/property-deck.jpg"
-              alt="Short-term rental deck with a mountain view in Washington"
+              alt="Short-term rental deck with a mountain view"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
