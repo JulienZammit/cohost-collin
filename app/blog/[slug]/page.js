@@ -17,7 +17,7 @@ export function generateMetadata({ params }) {
   return {
     title: post.title,
     description: post.excerpt,
-    alternates: { canonical: `https://cohostcollin.com/blog/${post.slug}` },
+    alternates: { canonical: `https://www.wellreceivedhomes.com/blog/${post.slug}` },
     openGraph: {
       type: 'article',
       title: post.title,
@@ -38,7 +38,7 @@ export default function BlogPost({ params }) {
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
-    image: `https://cohostcollin.com${post.image}`,
+    image: `https://www.wellreceivedhomes.com${post.image}`,
     datePublished: post.date,
     author: { '@type': 'Person', name: 'Collin Hinshaw' },
     publisher: { '@type': 'Organization', name: 'Cohost Collin' },

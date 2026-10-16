@@ -1,7 +1,7 @@
 import { BLOG_POSTS } from '@/lib/site';
 
 export default function sitemap() {
-  const base = 'https://cohostcollin.com';
+  const base = 'https://www.wellreceivedhomes.com';
   const now = new Date('2026-07-11');
   return [
     { url: base, lastModified: now, changeFrequency: 'monthly', priority: 1 },

@@ -17,7 +17,7 @@ const hanken = Hanken_Grotesk({
   display: 'swap',
 });
 
-const siteUrl = 'https://cohostcollin.com';
+const siteUrl = 'https://www.wellreceivedhomes.com';
 
 export const metadata = {
   metadataBase: new URL(siteUrl),

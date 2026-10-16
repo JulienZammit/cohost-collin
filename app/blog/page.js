@@ -10,7 +10,7 @@ export const metadata = {
   title: 'The Blog — STR Hosting Insights',
   description:
     'Practical short-term rental insights from Cohost Collin: revenue strategy, dynamic pricing, ROI-first design, and hands-off management in Washington State and across the US.',
-  alternates: { canonical: 'https://cohostcollin.com/blog' },
+  alternates: { canonical: 'https://www.wellreceivedhomes.com/blog' },
 };
 
 export default function BlogIndex() {

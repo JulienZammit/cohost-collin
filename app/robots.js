@@ -1,6 +1,6 @@
 export default function robots() {
   return {
     rules: { userAgent: '*', allow: '/' },
-    sitemap: 'https://cohostcollin.com/sitemap.xml',
+    sitemap: 'https://www.wellreceivedhomes.com/sitemap.xml',
   };
 }
