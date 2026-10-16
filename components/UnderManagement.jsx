@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Star, ArrowUpRight, MapPin } from 'lucide-react';
 import Reveal from './Reveal';
-import { PROPERTIES } from '@/lib/site';
+import { PROPERTIES, AIRBNB_PROFILE } from '@/lib/site';
 
 function PropertyCard({ p }) {
   return (
@@ -25,6 +25,7 @@ function PropertyCard({ p }) {
         <div className="absolute inset-0 bg-gradient-to-t from-ink/75 via-transparent to-transparent" />
         <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/95 px-2.5 py-1 text-xs font-bold text-ink shadow">
           <Star size={12} className="fill-coral text-coral" /> {p.rating}
+          <span className="font-medium text-ink/55">({p.reviews})</span>
         </div>
         <div className="absolute bottom-3 left-4 flex items-center gap-1.5 text-cream">
           <MapPin size={15} className="text-coral-400" />
@@ -70,10 +71,18 @@ export default function UnderManagement() {
             </Reveal>
           </div>
           <Reveal delay={0.1} className="shrink-0">
-            <div className="flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-3">
+            <a
+              href={AIRBNB_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-3 transition-colors hover:border-coral-400/60"
+            >
               <Star size={18} className="fill-coral-400 text-coral-400" />
-              <span className="text-sm font-semibold">Superhost · 4.9 avg rating</span>
-            </div>
+              <span className="text-sm font-semibold">
+                Superhost · 4.92 avg rating · {PROPERTIES.length} homes
+              </span>
+              <ArrowUpRight size={15} className="text-coral-400" />
+            </a>
           </Reveal>
         </div>
       </div>
@@ -82,7 +91,7 @@ export default function UnderManagement() {
       <div className="group relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_5%,black_95%,transparent)]">
         <div
           className="flex w-max gap-5 pl-5 animate-marquee group-hover:[animation-play-state:paused]"
-          style={{ animationDuration: '48s' }}
+          style={{ animationDuration: '90s' }}
         >
           {loop.map((p, i) => (
             <PropertyCard key={`${p.href}-${i}`} p={p} />
