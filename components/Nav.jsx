@@ -41,14 +41,14 @@ export default function Nav({ solid = false }) {
       }`}
     >
       <nav className="container-x flex h-[76px] items-center justify-between">
-        <a href="/#top" className="relative flex items-center" aria-label="Cohost Collin home">
+        <a href="/#top" className="relative flex items-center" aria-label="Well Received Homes home">
           <Image
-            src="/assets/img/logo.png"
-            alt="Cohost Collin"
-            width={150}
-            height={69}
+            src="/assets/img/logo-well-received.png"
+            alt="Well Received Homes"
+            width={1052}
+            height={281}
             priority
-            className={`h-9 w-auto transition-all duration-500 md:h-10 ${atTop ? 'brightness-0 invert' : ''}`}
+            className={`h-10 w-auto transition-all duration-500 md:h-12 ${atTop ? 'brightness-0 invert' : ''}`}
           />
         </a>
 

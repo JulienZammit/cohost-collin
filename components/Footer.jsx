@@ -12,11 +12,11 @@ export default function Footer() {
         <div className="grid gap-10 border-b border-white/10 pb-12 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
             <Image
-              src="/assets/img/logo.png"
-              alt="Cohost Collin"
-              width={170}
-              height={78}
-              className="h-11 w-auto brightness-0 invert"
+              src="/assets/img/logo-well-received.png"
+              alt="Well Received Homes"
+              width={1052}
+              height={281}
+              className="h-14 w-auto brightness-0 invert"
             />
             <p className="mt-5 max-w-sm text-[0.95rem] leading-relaxed text-cream/60">
               Full-service short-term rental co-hosting in Washington State and across the US. Earn more,
