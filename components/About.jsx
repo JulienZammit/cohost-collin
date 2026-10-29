@@ -22,7 +22,7 @@ export default function About() {
         <Reveal from="right" className="relative mx-auto w-full max-w-sm lg:max-w-none">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-lift ring-1 ring-ink/5">
             <Image
-              src="/assets/img/collin.jpg"
+              src="/assets/img/collin-headshot.jpg"
               alt="Collin Hinshaw, founder of Cohost Collin"
               fill
               sizes="(max-width: 1024px) 100vw, 40vw"
